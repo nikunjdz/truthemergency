@@ -7,21 +7,21 @@ const LeftSidebar = () => {
       <div className="flex flex-col gap-5 items-center">
         <a href="#resources?tab=books" className="block">
           <img
-            src="/images/truth_books.png"
+            src={`${import.meta.env.BASE_URL}images/truth_books.png`}
             alt="Books"
             className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow"
           />
         </a>
         <a href="#resources?tab=films" className="block">
           <img
-            src="/images/truth_films.png"
+            src={`${import.meta.env.BASE_URL}images/truth_films.png`}
             alt="Films"
             className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow"
           />
         </a>
         <a href="#resources?tab=online" className="block">
           <img
-            src="/images/truth_online.png"
+            src={`${import.meta.env.BASE_URL}images/truth_online.png`}
             alt="Online"
             className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow"
           />
