@@ -62,21 +62,27 @@ const RightSidebar = () => {
           Recommended References
         </h3>
         <div className="flex flex-col gap-5">
-          <img
-            src="/images/truth_books.png"
-            alt="US Truth Emergency References - BOOKS"
-            className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow cursor-pointer"
-          />
-          <img
-            src="/images/truth_films.png"
-            alt="US Truth Emergency References - FILMS"
-            className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow cursor-pointer"
-          />
-          <img
-            src="/images/truth_online.png"
-            alt="US Truth Emergency References - ONLINE"
-            className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow cursor-pointer"
-          />
+          <a href="#resources?tab=books" className="block">
+            <img
+              src="/images/truth_books.png"
+              alt="US Truth Emergency References - BOOKS"
+              className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow cursor-pointer"
+            />
+          </a>
+          <a href="#resources?tab=films" className="block">
+            <img
+              src="/images/truth_films.png"
+              alt="US Truth Emergency References - FILMS"
+              className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow cursor-pointer"
+            />
+          </a>
+          <a href="#resources?tab=online" className="block">
+            <img
+              src="/images/truth_online.png"
+              alt="US Truth Emergency References - ONLINE"
+              className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow cursor-pointer"
+            />
+          </a>
         </div>
       </div>
 
