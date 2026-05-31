@@ -1,0 +1,2790 @@
+/*
+Theme Name: Truth Emergency 2008_4
+Theme URI: 
+Description: Staging site for the 2008 "Publicizing Truths with Consequence" Santa Cruz Strategy Summit for the non-corporate media world.
+Version: 1.0
+Author: Truth Emergency
+Author URI: 
+Tags: 9/11, Constitution, corporate coup, corporate media, fixed-width, media complicity, military-industrial complex, three-columns, valid HTML5, widgets
+*/
+
+/* Created by Artisteer v4.0.0.58475 */
+
+#truth-main
+{
+   background: #123787;
+   background: linear-gradient(top, #356CE3 0, #1F5CE0 71px, #020712 720px) no-repeat;
+   background: -webkit-linear-gradient(top, #356CE3 0, #1F5CE0 71px, #020712 720px) no-repeat;
+   background: -moz-linear-gradient(top, #356CE3 0, #1F5CE0 71px, #020712 720px) no-repeat;
+   background: -o-linear-gradient(top, #356CE3 0, #1F5CE0 71px, #020712 720px) no-repeat;
+   background: -ms-linear-gradient(top, #356CE3 0, #1F5CE0 71px, #020712 720px) no-repeat;
+   background: linear-gradient(top, #356CE3 0, #1F5CE0 71px, #020712 720px) no-repeat;
+   -svg-background: linear-gradient(top, #356CE3 0, #1F5CE0 71px, #020712 720px) no-repeat;
+   margin:0 auto;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+}
+table, ul.truth-hmenu
+{
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+/* Reset buttons border. It's important for input and button tags. 
+ * border-collapse should be separate for shadow in IE. 
+ */
+.truth-button
+{
+   border-collapse: separate;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #628DEA;
+   background: transparent;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px solid #2B3850;
+   padding:0 5px;
+   margin:0 auto;
+   height:20px;
+}
+
+.truth-postcontent,
+.truth-postheadericons,
+.truth-postfootericons,
+.truth-blockcontent,
+ul.truth-vmenu a 
+{
+   text-align: left;
+}
+
+.truth-postcontent,
+.truth-postcontent li,
+.truth-postcontent table,
+.truth-postcontent a,
+.truth-postcontent a:link,
+.truth-postcontent a:visited,
+.truth-postcontent a.visited,
+.truth-postcontent a:hover,
+.truth-postcontent a.hovered
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
+}
+
+.truth-postcontent p
+{
+   margin: 13px 0;
+}
+
+.truth-postcontent h1, .truth-postcontent h1 a, .truth-postcontent h1 a:link, .truth-postcontent h1 a:visited, .truth-postcontent h1 a:hover,
+.truth-postcontent h2, .truth-postcontent h2 a, .truth-postcontent h2 a:link, .truth-postcontent h2 a:visited, .truth-postcontent h2 a:hover,
+.truth-postcontent h3, .truth-postcontent h3 a, .truth-postcontent h3 a:link, .truth-postcontent h3 a:visited, .truth-postcontent h3 a:hover,
+.truth-postcontent h4, .truth-postcontent h4 a, .truth-postcontent h4 a:link, .truth-postcontent h4 a:visited, .truth-postcontent h4 a:hover,
+.truth-postcontent h5, .truth-postcontent h5 a, .truth-postcontent h5 a:link, .truth-postcontent h5 a:visited, .truth-postcontent h5 a:hover,
+.truth-postcontent h6, .truth-postcontent h6 a, .truth-postcontent h6 a:link, .truth-postcontent h6 a:visited, .truth-postcontent h6 a:hover,
+.truth-blockheader .t, .truth-blockheader .t a, .truth-blockheader .t a:link, .truth-blockheader .t a:visited, .truth-blockheader .t a:hover,
+.truth-vmenublockheader .t, .truth-vmenublockheader .t a, .truth-vmenublockheader .t a:link, .truth-vmenublockheader .t a:visited, .truth-vmenublockheader .t a:hover,
+.truth-headline, .truth-headline a, .truth-headline a:link, .truth-headline a:visited, .truth-headline a:hover,
+.truth-slogan, .truth-slogan a, .truth-slogan a:link, .truth-slogan a:visited, .truth-slogan a:hover,
+.truth-postheader, .truth-postheader a, .truth-postheader a:link, .truth-postheader a:visited, .truth-postheader a:hover
+{
+   font-size: 22px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 120%;
+}
+
+.truth-postcontent a, .truth-postcontent a:link
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #406C85;
+}
+
+.truth-postcontent a:visited, .truth-postcontent a.visited
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #76A3C1;
+}
+
+.truth-postcontent  a:hover, .truth-postcontent a.hover
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+   color: #5088A9;
+}
+
+.truth-postcontent h1
+{
+   color: #103075;
+   margin: 10px 0 0;
+   font-size: 20px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-blockcontent h1
+{
+   margin: 10px 0 0;
+   font-size: 20px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h1 a, .truth-postcontent h1 a:link, .truth-postcontent h1 a:hover, .truth-postcontent h1 a:visited, .truth-blockcontent h1 a, .truth-blockcontent h1 a:link, .truth-blockcontent h1 a:hover, .truth-blockcontent h1 a:visited 
+{
+   font-size: 20px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h2
+{
+   color: #1F5CE0;
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-blockcontent h2
+{
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h2 a, .truth-postcontent h2 a:link, .truth-postcontent h2 a:hover, .truth-postcontent h2 a:visited, .truth-blockcontent h2 a, .truth-blockcontent h2 a:link, .truth-blockcontent h2 a:hover, .truth-blockcontent h2 a:visited 
+{
+   font-size: 18px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h3
+{
+   color: #5080E7;
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-blockcontent h3
+{
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h3 a, .truth-postcontent h3 a:link, .truth-postcontent h3 a:hover, .truth-postcontent h3 a:visited, .truth-blockcontent h3 a, .truth-blockcontent h3 a:link, .truth-blockcontent h3 a:hover, .truth-blockcontent h3 a:visited 
+{
+   font-size: 18px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h4
+{
+   color: #417090;
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-blockcontent h4
+{
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h4 a, .truth-postcontent h4 a:link, .truth-postcontent h4 a:hover, .truth-postcontent h4 a:visited, .truth-blockcontent h4 a, .truth-blockcontent h4 a:link, .truth-blockcontent h4 a:hover, .truth-blockcontent h4 a:visited 
+{
+   font-size: 18px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h5
+{
+   color: #417090;
+   margin: 10px 0 0;
+   font-size: 16px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-blockcontent h5
+{
+   margin: 10px 0 0;
+   font-size: 16px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h5 a, .truth-postcontent h5 a:link, .truth-postcontent h5 a:hover, .truth-postcontent h5 a:visited, .truth-blockcontent h5 a, .truth-blockcontent h5 a:link, .truth-blockcontent h5 a:hover, .truth-blockcontent h5 a:visited 
+{
+   font-size: 16px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h6
+{
+   color: #9CBDD3;
+   margin: 10px 0 0;
+   font-size: 14px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-blockcontent h6
+{
+   margin: 10px 0 0;
+   font-size: 14px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-postcontent h6 a, .truth-postcontent h6 a:link, .truth-postcontent h6 a:hover, .truth-postcontent h6 a:visited, .truth-blockcontent h6 a, .truth-blockcontent h6 a:link, .truth-blockcontent h6 a:hover, .truth-blockcontent h6 a:visited 
+{
+   font-size: 14px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+header, footer, article, nav, #truth-hmenu-bg, .truth-sheet, .truth-hmenu a, .truth-vmenu a, .truth-slidenavigator > a, .truth-checkbox:before, .truth-radiobutton:before
+{
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+}
+
+header, footer, article, nav, #truth-hmenu-bg, .truth-sheet, .truth-slidenavigator > a, .truth-checkbox:before, .truth-radiobutton:before
+{
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul
+{
+   list-style-type: none;
+}
+
+ol
+{
+   list-style-position: inside;
+}
+
+html, body
+{
+   height: 100%;
+}
+
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 980px;
+   color: #284558;
+}
+
+.clearfix:before, .clearfix:after {
+   content: "";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+.cleared {
+   font: 0/0 serif;
+   clear: both;
+}
+
+form
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+table.position
+{
+   position: relative;
+   width: 100%;
+   table-layout: fixed;
+}
+
+li h1, .truth-postcontent li h1, .truth-blockcontent li h1 
+{
+   margin:1px;
+} 
+li h2, .truth-postcontent li h2, .truth-blockcontent li h2 
+{
+   margin:1px;
+} 
+li h3, .truth-postcontent li h3, .truth-blockcontent li h3 
+{
+   margin:1px;
+} 
+li h4, .truth-postcontent li h4, .truth-blockcontent li h4 
+{
+   margin:1px;
+} 
+li h5, .truth-postcontent li h5, .truth-blockcontent li h5 
+{
+   margin:1px;
+} 
+li h6, .truth-postcontent li h6, .truth-blockcontent li h6 
+{
+   margin:1px;
+} 
+li p, .truth-postcontent li p, .truth-blockcontent li p 
+{
+   margin:1px;
+}
+
+
+.truth-shapes
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   z-index: 0;
+}
+
+.truth-slider-inner {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.truth-slidenavigator > a {
+   display: inline-block;
+   vertical-align: middle;
+   outline-style: none;
+   font-size: 1px;
+}
+
+.truth-slidenavigator > a:last-child {
+   margin-right: 0 !important;
+}
+
+
+
+
+
+
+
+.truth-header
+{
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   -webkit-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   margin:0 auto;
+   height: 160px;
+   background-image: url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/header.jpg');
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   position: relative;
+   width: 980px;
+   z-index: auto !important;
+}
+
+.responsive .truth-header 
+{
+   background-image: url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/header.jpg');
+   background-position: center center;
+}
+
+.truth-header>.widget 
+{
+   position:absolute;
+   z-index:101;
+}
+
+.truth-header .truth-slider-inner
+{
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+}
+
+.truth-nav
+{
+   background: #1D799A;
+   background: linear-gradient(top, #269BC5 0, #14546B 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #269BC5 0, #14546B 100%) no-repeat;
+   background: -moz-linear-gradient(top, #269BC5 0, #14546B 100%) no-repeat;
+   background: -o-linear-gradient(top, #269BC5 0, #14546B 100%) no-repeat;
+   background: -ms-linear-gradient(top, #269BC5 0, #14546B 100%) no-repeat;
+   background: linear-gradient(top, #269BC5 0, #14546B 100%) no-repeat;
+   -svg-background: linear-gradient(top, #269BC5 0, #14546B 100%) no-repeat;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   -webkit-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   margin:10px auto 0;
+   position: relative;
+   z-index: 100;
+   font-size: 0;
+   text-align: left;
+}
+
+ul.truth-hmenu a, ul.truth-hmenu a:link, ul.truth-hmenu a:visited, ul.truth-hmenu a:hover 
+{
+   outline: none;
+   position: relative;
+   z-index: 11;
+}
+
+ul.truth-hmenu, ul.truth-hmenu ul
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   list-style-type: none;
+}
+
+ul.truth-hmenu li
+{
+   position: relative;
+   z-index: 5;
+   display: block;
+   float: left;
+   background: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+ul.truth-hmenu li:hover
+{
+   z-index: 10000;
+   white-space: normal;
+}
+
+ul.truth-hmenu:after, ul.truth-hmenu ul:after
+{
+   content: ".";
+   height: 0;
+   display: block;
+   visibility: hidden;
+   overflow: hidden;
+   clear: both;
+}
+
+ul.truth-hmenu, ul.truth-hmenu ul 
+{
+   min-height: 0;
+}
+
+ul.truth-hmenu 
+{
+   display: inline-block;
+   vertical-align: bottom;
+   padding-left: 5px;
+   padding-right: 5px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.truth-nav:before 
+{
+   content:' ';
+}
+
+.desktop-nav.truth-nav{
+   width: 980px;
+   padding-left: 3px;
+   padding-right: 3px;
+}
+
+.truth-hmenu-extra1
+{
+   position: relative;
+   display: block;
+   float: left;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.truth-hmenu-extra2
+{
+   position: relative;
+   display: block;
+   float: right;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.truth-hmenu
+{
+   float: left;
+}
+
+.truth-menuitemcontainer
+{
+   margin:0 auto;
+}
+ul.truth-hmenu>li {
+   margin-left: 0;
+}
+ul.truth-hmenu>li:first-child {
+   margin-left: 0;
+}
+ul.truth-hmenu>li:last-child, ul.truth-hmenu>li.last-child {
+   margin-right: 0;
+}
+
+ul.truth-hmenu>li>a
+{
+   padding:0 22px;
+   margin:0 auto;
+   position: relative;
+   display: block;
+   height: 26px;
+   cursor: pointer;
+   text-decoration: none;
+   color: #DBE0EB;
+   line-height: 26px;
+   text-align: center;
+}
+
+.truth-hmenu a, 
+.truth-hmenu a:link, 
+.truth-hmenu a:visited, 
+.truth-hmenu a.active, 
+.truth-hmenu a:hover
+{
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   text-transform: uppercase;
+   text-align: left;
+}
+
+ul.truth-hmenu>li>a.active
+{
+   background: #4C84A9;
+   background: linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   background: -moz-linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   background: -o-linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   background: -ms-linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   background: linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   -svg-background: linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   padding:0 22px;
+   margin:0 auto;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+ul.truth-hmenu>li>a:visited, 
+ul.truth-hmenu>li>a:hover, 
+ul.truth-hmenu>li:hover>a {
+   text-decoration: none;
+}
+
+ul.truth-hmenu>li>a:hover, .desktop ul.truth-hmenu>li:hover>a
+{
+   background: #5974A6;
+   background: linear-gradient(top, rgba(222, 227, 237, 0.5) 0, rgba(89, 116, 166, 0.5) 51%, rgba(20, 26, 36, 0.5) 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(222, 227, 237, 0.5) 0, rgba(89, 116, 166, 0.5) 51%, rgba(20, 26, 36, 0.5) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(222, 227, 237, 0.5) 0, rgba(89, 116, 166, 0.5) 51%, rgba(20, 26, 36, 0.5) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(222, 227, 237, 0.5) 0, rgba(89, 116, 166, 0.5) 51%, rgba(20, 26, 36, 0.5) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(222, 227, 237, 0.5) 0, rgba(89, 116, 166, 0.5) 51%, rgba(20, 26, 36, 0.5) 100%) no-repeat;
+   background: linear-gradient(top, rgba(222, 227, 237, 0.5) 0, rgba(89, 116, 166, 0.5) 51%, rgba(20, 26, 36, 0.5) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(222, 227, 237, 0.5) 0, rgba(89, 116, 166, 0.5) 51%, rgba(20, 26, 36, 0.5) 100%) no-repeat;
+   padding:0 22px;
+   margin:0 auto;
+}
+ul.truth-hmenu>li>a:hover, 
+.desktop-nav ul.truth-hmenu>li:hover>a {
+   color: #D5E3EC;
+   text-decoration: none;
+}
+
+ul.truth-hmenu li li a
+{
+   background: #748AB4;
+   background: transparent;
+   padding:0 8px;
+   margin:0 auto;
+}
+ul.truth-hmenu li li 
+{
+   float: none;
+   width: auto;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.desktop-nav ul.truth-hmenu li li ul>li:first-child 
+{
+   margin-top: 0;
+}
+
+ul.truth-hmenu li li ul>li:last-child 
+{
+   margin-bottom: 0;
+}
+
+.truth-hmenu ul a
+{
+   display: block;
+   white-space: nowrap;
+   height: 24px;
+   min-width: 7em;
+   border: 0 solid transparent;
+   text-align: left;
+   line-height: 24px;
+   color: #DBE0EB;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   margin:0;
+}
+
+.truth-hmenu ul a:link, 
+.truth-hmenu ul a:visited, 
+.truth-hmenu ul a.active, 
+.truth-hmenu ul a:hover
+{
+   text-align: left;
+   line-height: 24px;
+   color: #DBE0EB;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   margin:0;
+}
+
+ul.truth-hmenu ul li a:hover, .desktop ul.truth-hmenu ul li:hover>a
+{
+   background: #5974A6;
+   background: linear-gradient(top, #506895 0, #5974A6 25%, #637CAB 40%, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #506895 0, #5974A6 25%, #637CAB 40%, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   background: -moz-linear-gradient(top, #506895 0, #5974A6 25%, #637CAB 40%, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   background: -o-linear-gradient(top, #506895 0, #5974A6 25%, #637CAB 40%, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   background: -ms-linear-gradient(top, #506895 0, #5974A6 25%, #637CAB 40%, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   background: linear-gradient(top, #506895 0, #5974A6 25%, #637CAB 40%, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   -svg-background: linear-gradient(top, #506895 0, #5974A6 25%, #637CAB 40%, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   margin:0 auto;
+}
+.truth-hmenu ul a:hover
+{
+   text-decoration: none;
+}
+
+.truth-hmenu ul li a:hover
+{
+   color: #192C38;
+}
+
+.desktop-nav .truth-hmenu ul li:hover>a
+{
+   color: #192C38;
+}
+
+ul.truth-hmenu ul:before
+{
+   background: #1D799A;
+   border:1px solid #5974A6;
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   z-index: 1;
+}
+.desktop-nav ul.truth-hmenu li:hover>ul {
+   visibility: visible;
+   top: 100%;
+}
+.desktop-nav ul.truth-hmenu li li:hover>ul {
+   top: 0;
+   left: 100%;
+}
+
+ul.truth-hmenu ul
+{
+   visibility: hidden;
+   position: absolute;
+   z-index: 10;
+   left: 0;
+   top: 0;
+   background-image: url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/spacer.gif');
+}
+
+.desktop-nav ul.truth-hmenu>li>ul
+{
+   padding: 12px 32px 32px 32px;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop-nav ul.truth-hmenu ul ul
+{
+   padding: 32px 32px 32px 12px;
+   margin: -32px 0 0 -9px;
+}
+
+.desktop-nav ul.truth-hmenu ul.truth-hmenu-left-to-right 
+{
+   right: auto;
+   left: 0;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop-nav ul.truth-hmenu ul.truth-hmenu-right-to-left 
+{
+   left: auto;
+   right: 0;
+   margin: -10px -30px 0 0;
+}
+
+.desktop-nav ul.truth-hmenu li li:hover>ul.truth-hmenu-left-to-right {
+   right: auto;
+   left: 100%;
+}
+.desktop-nav ul.truth-hmenu li li:hover>ul.truth-hmenu-right-to-left {
+   left: auto;
+   right: 100%;
+}
+
+.desktop-nav ul.truth-hmenu ul ul.truth-hmenu-left-to-right
+{
+   right: auto;
+   left: 0;
+   padding: 32px 32px 32px 12px;
+   margin: -32px 0 0 -9px;
+}
+
+.desktop-nav ul.truth-hmenu ul ul.truth-hmenu-right-to-left
+{
+   left: auto;
+   right: 0;
+   padding: 32px 12px 32px 32px;
+   margin: -32px -9px 0 0;
+}
+
+.desktop-nav ul.truth-hmenu li ul>li:first-child {
+   margin-top: 0;
+}
+.desktop-nav ul.truth-hmenu li ul>li:last-child {
+   margin-bottom: 0;
+}
+
+.desktop-nav ul.truth-hmenu ul ul:before
+{
+   border-radius: 0;
+   top: 30px;
+   bottom: 30px;
+   right: 30px;
+   left: 10px;
+}
+
+.desktop-nav ul.truth-hmenu>li>ul:before
+{
+   top: 10px;
+   right: 30px;
+   bottom: 30px;
+   left: 30px;
+}
+
+.desktop-nav ul.truth-hmenu>li>ul.truth-hmenu-left-to-right:before {
+   right: 30px;
+   left: 30px;
+}
+.desktop-nav ul.truth-hmenu>li>ul.truth-hmenu-right-to-left:before {
+   right: 30px;
+   left: 30px;
+}
+.desktop-nav ul.truth-hmenu ul ul.truth-hmenu-left-to-right:before {
+   right: 30px;
+   left: 10px;
+}
+.desktop-nav ul.truth-hmenu ul ul.truth-hmenu-right-to-left:before {
+   right: 10px;
+   left: 30px;
+}
+
+.truth-sheet
+{
+   background: #FEFEFE;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   -webkit-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   padding:3px;
+   margin:10px auto 0;
+   position:relative;
+   cursor:auto;
+   width: 980px;
+   z-index: auto !important;
+}
+
+.truth-layout-wrapper
+{
+   position: relative;
+   margin: 0 auto 0 auto;
+   z-index: auto !important;
+}
+
+.truth-content-layout
+{
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+   border-collapse: collapse;
+}
+
+.truth-content-layout-row 
+{
+   display: table-row;
+}
+
+.truth-layout-cell
+{
+   display: table-cell;
+   vertical-align: top;
+}
+
+.truth-vmenublock
+{
+   background: #D5E3EC;
+   background: rgba(213, 227, 236, 0.5);
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.07);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.07);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.07);
+   border:1px solid rgba(73, 95, 136, 0.5);
+   margin:5px;
+}
+div.truth-vmenublock img
+{
+   margin: 0;
+}
+
+.truth-vmenublockcontent
+{
+   margin:0 auto;
+}
+
+ul.truth-vmenu, ul.truth-vmenu ul
+{
+   list-style: none;
+   display: block;
+}
+
+ul.truth-vmenu, ul.truth-vmenu li
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   width: auto;
+   line-height: 0;
+}
+
+ul.truth-vmenu
+{
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+ul.truth-vmenu ul
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+
+ul.truth-vmenu ul.active
+{
+   display: block;
+}
+
+ul.truth-vmenu>li>a
+{
+   padding:0 15px;
+   margin:0 auto;
+   color: #2D3A53;
+   min-height: 30px;
+   line-height: 30px;
+}
+ul.truth-vmenu a 
+{
+   display: block;
+   cursor: pointer;
+   z-index: 1;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   position:relative;
+}
+
+ul.truth-vmenu li{
+   position:relative;
+}
+
+ul.truth-vmenu>li
+{
+   margin-top: 2px;
+}
+ul.truth-vmenu>li>ul
+{
+   padding: 0;
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+ul.truth-vmenu>li:first-child
+{
+   margin-top:0;
+}
+
+ul.truth-vmenu>li>a:hover, ul.truth-vmenu>li>a.active:hover
+{
+   padding:0 15px;
+   margin:0 auto;
+}
+ul.truth-vmenu>li>a:hover, ul.truth-vmenu>li>a.active:hover
+{
+   text-decoration: underline;
+}
+
+ul.truth-vmenu a:hover, ul.truth-vmenu a.active:hover 
+{
+   color: #546D9C;
+}
+
+ul.truth-vmenu>li>a.active:hover>span.border-top, ul.truth-vmenu>li>a.active:hover>span.border-bottom 
+{
+   background-color: transparent;
+}
+
+ul.truth-vmenu>li>a.active
+{
+   background: #4C84A9;
+   background: linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   background: -moz-linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   background: -o-linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   background: -ms-linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   background: linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   -svg-background: linear-gradient(top, #3E6B89 0, #4F89B0 28%, #6195B8 40%, #689ABB 50%, #6195B8 60%, #4F89B0 73%, #3E6B89 100%) no-repeat;
+   padding:0 15px;
+   margin:0 auto;
+   text-decoration: none;
+   color: #111E27;
+}
+
+ul.truth-vmenu>li>ul:before
+{
+   background: #5974A6;
+   background: transparent;
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+ul.truth-vmenu li li a
+{
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+   position: relative;
+}
+ul.truth-vmenu ul li
+{
+   margin: 0;
+   padding: 0;
+}
+ul.truth-vmenu li li{
+   position: relative;
+   margin-top: 6px;
+}
+
+ul.truth-vmenu ul a
+{
+   display: block;
+   position: relative;
+   min-height: 34px;
+   overflow: visible;
+   padding: 0;
+   padding-left: 27px;
+   padding-right: 27px;
+   z-index: 0;
+   line-height: 34px;
+   color: #546D9C;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+ul.truth-vmenu ul a:visited, ul.truth-vmenu ul a.active:hover, ul.truth-vmenu ul a:hover, ul.truth-vmenu ul a.active
+{
+   line-height: 34px;
+   color: #546D9C;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+ul.truth-vmenu ul ul a
+{
+   padding-left: 54px;
+}
+ul.truth-vmenu ul ul ul a
+{
+   padding-left: 81px;
+}
+ul.truth-vmenu ul ul ul ul a
+{
+   padding-left: 108px;
+}
+ul.truth-vmenu ul ul ul ul ul a
+{
+   padding-left: 135px;
+}
+
+ul.truth-vmenu li li a:before
+{
+   content:url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/vmenusubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.truth-vmenu li li a:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.truth-vmenu ul>li>a:hover, ul.truth-vmenu ul>li>a.active:hover
+{
+   background: #8EB4CC;
+   background: rgba(142, 180, 204, 0.4);
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+}
+ul.truth-vmenu ul li a:hover, ul.truth-vmenu ul li a.active:hover
+{
+   text-decoration: underline;
+   color: #365D78;
+}
+
+ul.truth-vmenu ul a:hover:after
+{
+   background-position: center ;
+}
+ul.truth-vmenu ul a.active:hover:after
+{
+   background-position: center ;
+}
+ul.truth-vmenu ul a.active:after
+{
+   background-position: bottom ;
+}
+
+ul.truth-vmenu li li a:hover:before
+{
+   content:url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/vmenuhoveredsubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.truth-vmenu li li a:hover:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.truth-vmenu ul>li>a.active
+{
+   background: #8EB4CC;
+   background: rgba(142, 180, 204, 0.4);
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+}
+ul.truth-vmenu ul a.active, ul.truth-vmenu ul a:hover, ul.truth-vmenu ul a.active:hover
+{
+   text-decoration: none;
+   color: #162631;
+}
+
+ul.truth-vmenu li li a.active:before
+{
+   content:url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/vmenuactivesubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.truth-vmenu li li a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.truth-block
+{
+   margin:5px;
+}
+div.truth-block img
+{
+   border: none;
+   margin: 2px;
+}
+
+.truth-blockheader
+{
+   background: #406C85;
+   background: linear-gradient(top, rgba(71, 120, 148, 0.91) 0, rgba(71, 120, 148, 0.91) 50%, rgba(71, 120, 148, 0.91) 60%, rgba(56, 95, 117, 0.91) 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(71, 120, 148, 0.91) 0, rgba(71, 120, 148, 0.91) 50%, rgba(71, 120, 148, 0.91) 60%, rgba(56, 95, 117, 0.91) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(71, 120, 148, 0.91) 0, rgba(71, 120, 148, 0.91) 50%, rgba(71, 120, 148, 0.91) 60%, rgba(56, 95, 117, 0.91) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(71, 120, 148, 0.91) 0, rgba(71, 120, 148, 0.91) 50%, rgba(71, 120, 148, 0.91) 60%, rgba(56, 95, 117, 0.91) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(71, 120, 148, 0.91) 0, rgba(71, 120, 148, 0.91) 50%, rgba(71, 120, 148, 0.91) 60%, rgba(56, 95, 117, 0.91) 100%) no-repeat;
+   background: linear-gradient(top, rgba(71, 120, 148, 0.91) 0, rgba(71, 120, 148, 0.91) 50%, rgba(71, 120, 148, 0.91) 60%, rgba(56, 95, 117, 0.91) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(71, 120, 148, 0.91) 0, rgba(71, 120, 148, 0.91) 50%, rgba(71, 120, 148, 0.91) 60%, rgba(56, 95, 117, 0.91) 100%) no-repeat;
+   border:2px solid rgba(26, 77, 188, 0.91);
+   border-left:none;
+   border-right:none;
+   padding:10px 3px;
+   margin:0 auto 4px;
+}
+.truth-blockheader .t,
+.truth-blockheader .t a,
+.truth-blockheader .t a:link,
+.truth-blockheader .t a:visited, 
+.truth-blockheader .t a:hover
+{
+   color: #FEFEFE;
+   font-size: 16px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-align: center;
+   text-shadow: 1px 0 0 rgb(23, 23, 23), 1px 0 0 rgb(23, 23, 23), 0 -1px 0 rgb(23, 23, 23), 0 1px 0 rgb(23, 23, 23), 0 0 10px rgba(0, 0, 0, 0.99);
+   margin: 0 5px;
+}
+
+.truth-blockcontent
+{
+   padding:3px;
+   margin:0 auto;
+   color: #0D161C;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
+}
+.truth-blockcontent table,
+.truth-blockcontent li, 
+.truth-blockcontent a,
+.truth-blockcontent a:link,
+.truth-blockcontent a:visited,
+.truth-blockcontent a:hover
+{
+   color: #0D161C;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
+}
+
+.truth-blockcontent p
+{
+   margin: 0 5px;
+}
+
+.truth-blockcontent a, .truth-blockcontent a:link
+{
+   color: #4F89B0;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.truth-blockcontent a:visited, .truth-blockcontent a.visited
+{
+   color: #76A3C1;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.truth-blockcontent a:hover, .truth-blockcontent a.hover
+{
+   color: #5080E7;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+.truth-block li
+{
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
+   color: #417090;
+   margin: 5px 0 0 10px;
+}
+
+.truth-breadcrumbs
+{
+   margin:0 auto;
+}
+
+a.truth-button,
+a.truth-button:link,
+a:link.truth-button:link,
+body a.truth-button:link,
+a.truth-button:visited,
+body a.truth-button:visited,
+input.truth-button,
+button.truth-button
+{
+   text-decoration: none;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position:relative;
+   display: inline-block;
+   vertical-align: middle;
+   white-space: nowrap;
+   text-align: center;
+   color: #2D3A53;
+   margin: 0 !important;
+   overflow: visible;
+   cursor: pointer;
+   text-indent: 0;
+   line-height: 20px;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+}
+
+.truth-button img
+{
+   margin: 0;
+   vertical-align: middle;
+}
+
+.firefox2 .truth-button
+{
+   display: block;
+   float: left;
+}
+
+input, select, textarea
+{
+   vertical-align: middle;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.truth-block select 
+{
+   width:96%;
+}
+
+input.truth-button
+{
+   float: none !important;
+}
+
+.truth-button.active, .truth-button.active:hover
+{
+   background: #5974A6;
+   background: linear-gradient(top, #8195BB 0, #677FAD 50%, #5974A6 50%, #4D648F 50%, #5974A6 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #8195BB 0, #677FAD 50%, #5974A6 50%, #4D648F 50%, #5974A6 100%) no-repeat;
+   background: -moz-linear-gradient(top, #8195BB 0, #677FAD 50%, #5974A6 50%, #4D648F 50%, #5974A6 100%) no-repeat;
+   background: -o-linear-gradient(top, #8195BB 0, #677FAD 50%, #5974A6 50%, #4D648F 50%, #5974A6 100%) no-repeat;
+   background: -ms-linear-gradient(top, #8195BB 0, #677FAD 50%, #5974A6 50%, #4D648F 50%, #5974A6 100%) no-repeat;
+   background: linear-gradient(top, #8195BB 0, #677FAD 50%, #5974A6 50%, #4D648F 50%, #5974A6 100%) no-repeat;
+   -svg-background: linear-gradient(top, #8195BB 0, #677FAD 50%, #5974A6 50%, #4D648F 50%, #5974A6 100%) no-repeat;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px solid transparent;
+   padding:0 5px;
+   margin:0 auto;
+}
+.truth-button.active, .truth-button.active:hover {
+   color: #141A24 !important;
+}
+
+.truth-button.hover, .truth-button:hover
+{
+   background: #2B3850;
+   background: linear-gradient(top, #405477 0, #32415D 50%, #1E2738 50%, #2B3850 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #405477 0, #32415D 50%, #1E2738 50%, #2B3850 100%) no-repeat;
+   background: -moz-linear-gradient(top, #405477 0, #32415D 50%, #1E2738 50%, #2B3850 100%) no-repeat;
+   background: -o-linear-gradient(top, #405477 0, #32415D 50%, #1E2738 50%, #2B3850 100%) no-repeat;
+   background: -ms-linear-gradient(top, #405477 0, #32415D 50%, #1E2738 50%, #2B3850 100%) no-repeat;
+   background: linear-gradient(top, #405477 0, #32415D 50%, #1E2738 50%, #2B3850 100%) no-repeat;
+   -svg-background: linear-gradient(top, #405477 0, #32415D 50%, #1E2738 50%, #2B3850 100%) no-repeat;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px solid transparent;
+   padding:0 5px;
+   margin:0 auto;
+}
+.truth-button.hover, .truth-button:hover {
+   color: #8EB4CC !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   background: #2B3850;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px solid #9CACC9;
+   margin:0 auto;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   width: 100%;
+   padding: 8px 0;
+   color: #A0BFD4 !important;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+input.truth-error, textarea.truth-error
+{
+   background: #2B3850;
+   border:1px solid #E2341D;
+   margin:0 auto;
+}
+input.truth-error, textarea.truth-error {
+   color: #A0BFD4 !important;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.truth-search input[type="text"]
+{
+   background: #2B3850;
+   background: transparent;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   border:1px solid #748AB4;
+   margin:0 auto;
+   width: 100%;
+   padding: 11px 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   color: #3B4D6D !important;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.truth-search 
+{
+   background-image: none;
+   border: 0;
+   display:block;
+   position:relative;
+   top:0;
+   padding:0;
+   margin:5px;
+   left:0;
+   line-height: 0;
+}
+
+form.truth-search input
+{
+   top:0;
+   right:0;
+}
+
+form.truth-search>input {
+   bottom:0;
+   left:0;
+   vertical-align: middle;
+}
+ 
+form.truth-search input[type="submit"]
+{
+   margin:0 auto;
+   color: #141A24 !important;
+   position:absolute;
+   display:block;
+   left: auto;
+   border:none;
+   background:url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/searchicon.png') center center no-repeat;
+   width:24px;
+   height: 100%;
+   padding:0;
+}
+
+label.truth-checkbox:before
+{
+   background: #5974A6;
+   background: linear-gradient(top, #677FAD 0, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #677FAD 0, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   background: -moz-linear-gradient(top, #677FAD 0, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   background: -o-linear-gradient(top, #677FAD 0, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   background: -ms-linear-gradient(top, #677FAD 0, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   background: linear-gradient(top, #677FAD 0, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   -svg-background: linear-gradient(top, #677FAD 0, #677FAD 50%, #637CAB 60%, #5974A6 75%, #506895 100%) no-repeat;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #495F88;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+}
+label.truth-checkbox
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 16px;
+   display: inline-block;
+}
+
+.truth-checkbox>input[type="checkbox"]
+{
+   margin: 0 5px 0 0;
+}
+
+label.truth-checkbox.active:before
+{
+   background: #2C66E2;
+   background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -moz-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -o-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -ms-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   -svg-background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #2C66E2;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.truth-checkbox.hovered:before
+{
+   background: #2C66E2;
+   background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -moz-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -o-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -ms-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   -svg-background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #4C84A9;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.truth-radiobutton:before
+{
+   background: #2B3850;
+   background: linear-gradient(top, #32415D 0, #32415D 50%, #303F5A 60%, #202A3C 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #32415D 0, #32415D 50%, #303F5A 60%, #202A3C 100%) no-repeat;
+   background: -moz-linear-gradient(top, #32415D 0, #32415D 50%, #303F5A 60%, #202A3C 100%) no-repeat;
+   background: -o-linear-gradient(top, #32415D 0, #32415D 50%, #303F5A 60%, #202A3C 100%) no-repeat;
+   background: -ms-linear-gradient(top, #32415D 0, #32415D 50%, #303F5A 60%, #202A3C 100%) no-repeat;
+   background: linear-gradient(top, #32415D 0, #32415D 50%, #303F5A 60%, #202A3C 100%) no-repeat;
+   -svg-background: linear-gradient(top, #32415D 0, #32415D 50%, #303F5A 60%, #202A3C 100%) no-repeat;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #495F88;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+}
+label.truth-radiobutton
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 12px;
+   display: inline-block;
+}
+
+.truth-radiobutton>input[type="radio"]
+{
+   vertical-align: baseline;
+   margin: 0 5px 0 0;
+}
+
+label.truth-radiobutton.active:before
+{
+   background: #2C66E2;
+   background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -moz-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -o-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -ms-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   -svg-background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #2C66E2;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+   display: inline-block;
+}
+
+label.truth-radiobutton.hovered:before
+{
+   background: #2C66E2;
+   background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -moz-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -o-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: -ms-linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   -svg-background: linear-gradient(top, #3E73E5 0, #3E73E5 50%, #3A70E4 60%, #1F5CE0 90%, #1D58D7 100%) no-repeat;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #4C84A9;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+   display: inline-block;
+}
+
+.truth-post
+{
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   padding:5px;
+   margin:3px;
+}
+a img
+{
+   border: 0;
+}
+
+.truth-article img, img.truth-article, .truth-block img, .truth-footer img
+{
+   margin: 10px 10px 10px 10px;
+}
+
+.truth-metadata-icons img
+{
+   border: none;
+   vertical-align: middle;
+   margin: 2px;
+}
+
+.truth-article table, table.truth-article
+{
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+.truth-post .truth-content-layout-br
+{
+   height: 0;
+}
+
+.truth-article th, .truth-article td
+{
+   padding: 2px;
+   border: dotted 1px #495F88;
+   vertical-align: top;
+   text-align: left;
+}
+
+.truth-article th
+{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+pre
+{
+   overflow: auto;
+   padding: 0.1em;
+}
+
+.preview-cms-logo
+{
+   border: 0;
+   margin: 1em 1em 0 0;
+   float: left;
+}
+
+.image-caption-wrapper
+{
+   padding: 10px 10px 10px 10px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper img
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper div.truth-collage
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper p
+{
+   font-size: 80%;
+   text-align: right;
+   margin: 0;
+}
+
+.truth-postmetadataheader
+{
+   border-bottom:1px solid #2C4D63;
+   margin:0 auto;
+   position:relative;
+   z-index:1;
+   padding: 1px;
+   margin-bottom: 5px;
+}
+
+.truth-postheader
+{
+   color: #406C85;
+   margin: 5px 10px;
+   font-size: 24px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.truth-postheader a, 
+.truth-postheader a:link, 
+.truth-postheader a:visited,
+.truth-postheader a.visited,
+.truth-postheader a:hover,
+.truth-postheader a.hovered
+{
+   font-size: 24px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.truth-postheader a, .truth-postheader a:link
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #0F2E70;
+}
+
+.truth-postheader a:visited, .truth-postheader a.visited
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #6195B8;
+}
+
+.truth-postheader a:hover,  .truth-postheader a.hovered
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #5080E7;
+}
+
+.truth-postheadericons,
+.truth-postheadericons a,
+.truth-postheadericons a:link,
+.truth-postheadericons a:visited,
+.truth-postheadericons a:hover
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #6780A9;
+}
+
+.truth-postheadericons
+{
+   display:inline-block;
+   padding: 1px;
+   margin: 0 0 0 10px;
+}
+
+.truth-postheadericons a, .truth-postheadericons a:link
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #15409D;
+}
+
+.truth-postheadericons a:visited, .truth-postheadericons a.visited
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #3E5174;
+}
+
+.truth-postheadericons a:hover, .truth-postheadericons a.hover
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: underline;
+   color: #1C55CE;
+}
+
+.truth-postpdficon:before
+{
+   content:url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/postpdficon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .truth-postpdficon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.truth-postprinticon:before
+{
+   content:url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/postprinticon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .truth-postprinticon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.truth-postemailicon:before
+{
+   content:url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/postemailicon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .truth-postemailicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.truth-postcontent ul>li:before,  .truth-post ul>li:before,  .truth-textblock ul>li:before
+{
+   content:url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/postbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .truth-postcontent ul>li:before, .opera   .truth-post ul>li:before, .opera   .truth-textblock ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.truth-postcontent li, .truth-post li, .truth-textblock li
+{
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #0E131B;
+   margin: 3px 0 0 11px;
+}
+
+.truth-postcontent ul>li, .truth-post ul>li, .truth-textblock ul>li, .truth-postcontent ol, .truth-post ol, .truth-textblock ol
+{
+   padding: 0;
+}
+
+.truth-postcontent ul>li, .truth-post ul>li, .truth-textblock ul>li
+{
+   padding-left: 9px;
+}
+
+.truth-postcontent ul>li:before,  .truth-post ul>li:before,  .truth-textblock ul>li:before
+{
+   margin-left: -9px;
+}
+
+.truth-postcontent ol, .truth-post ol, .truth-textblock ol, .truth-postcontent ul, .truth-post ul, .truth-textblock ul
+{
+   margin: 1em 0 1em 11px;
+}
+
+.truth-postcontent li ol, .truth-post li ol, .truth-textblock li ol, .truth-postcontent li ul, .truth-post li ul, .truth-textblock li ul
+{
+   margin: 0.5em 0 0.5em 11px;
+}
+
+.truth-postcontent li, .truth-post li, .truth-textblock li
+{
+   margin: 3px 0 0 0;
+}
+
+.truth-postcontent ol>li, .truth-post ol>li, .truth-textblock ol>li
+{
+   /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+
+.truth-postcontent ul>li, .truth-post ul>li, .truth-textblock ul>li
+{
+   /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+   overflow-y: hidden;
+}
+
+blockquote
+{
+   background: #5974A6 url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/postquote.png') no-repeat scroll;
+   padding:12px 12px 12px 35px;
+   margin:0 0 0 10px;
+   color: #05080B;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   text-align: left;
+   /* makes block not to align behind the image if they are in the same line */
+  overflow: auto;
+   clear:both;
+}
+blockquote a, .truth-postcontent blockquote a, .truth-blockcontent blockquote a, .truth-footer blockquote a,
+blockquote a:link, .truth-postcontent blockquote a:link, .truth-blockcontent blockquote a:link, .truth-footer blockquote a:link,
+blockquote a:visited, .truth-postcontent blockquote a:visited, .truth-blockcontent blockquote a:visited, .truth-footer blockquote a:visited,
+blockquote a:hover, .truth-postcontent blockquote a:hover, .truth-blockcontent blockquote a:hover, .truth-footer blockquote a:hover
+{
+   color: #05080B;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   text-align: left;
+}
+
+/* Override native 'p' margins*/
+blockquote p,
+.truth-postcontent blockquote p,
+.truth-blockcontent blockquote p,
+.truth-footer blockquote p
+{
+   margin: 0;
+   margin: 5px 0;
+}
+
+.Navigator .truth-ccs-navigator img, .Navigator img
+{
+   border: 0;
+   margin: 0;
+   vertical-align: middle;
+}
+tr.Navigator td, td span.Navigator
+{
+   text-align: center;
+   vertical-align: middle;
+}
+
+.truth-footer
+{
+   background: #1D2535;
+   background: linear-gradient(top, rgba(18, 23, 33, 0.4) 0, rgba(36, 46, 66, 0.4) 40%, rgba(37, 49, 70, 0.4) 50%, rgba(36, 46, 66, 0.4) 60%, rgba(18, 23, 33, 0.4) 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(18, 23, 33, 0.4) 0, rgba(36, 46, 66, 0.4) 40%, rgba(37, 49, 70, 0.4) 50%, rgba(36, 46, 66, 0.4) 60%, rgba(18, 23, 33, 0.4) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(18, 23, 33, 0.4) 0, rgba(36, 46, 66, 0.4) 40%, rgba(37, 49, 70, 0.4) 50%, rgba(36, 46, 66, 0.4) 60%, rgba(18, 23, 33, 0.4) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(18, 23, 33, 0.4) 0, rgba(36, 46, 66, 0.4) 40%, rgba(37, 49, 70, 0.4) 50%, rgba(36, 46, 66, 0.4) 60%, rgba(18, 23, 33, 0.4) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(18, 23, 33, 0.4) 0, rgba(36, 46, 66, 0.4) 40%, rgba(37, 49, 70, 0.4) 50%, rgba(36, 46, 66, 0.4) 60%, rgba(18, 23, 33, 0.4) 100%) no-repeat;
+   background: linear-gradient(top, rgba(18, 23, 33, 0.4) 0, rgba(36, 46, 66, 0.4) 40%, rgba(37, 49, 70, 0.4) 50%, rgba(36, 46, 66, 0.4) 60%, rgba(18, 23, 33, 0.4) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(18, 23, 33, 0.4) 0, rgba(36, 46, 66, 0.4) 40%, rgba(37, 49, 70, 0.4) 50%, rgba(36, 46, 66, 0.4) 60%, rgba(18, 23, 33, 0.4) 100%) no-repeat;
+   border-top:1px solid #495F88;
+   margin:30px auto 0;
+   position: relative;
+   color: #DBE0EB;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
+   text-align: center;
+   padding: 0;
+}
+
+.truth-footer a,
+.truth-footer a:link,
+.truth-footer a:visited,
+.truth-footer a:hover,
+.truth-footer td, 
+.truth-footer th,
+.truth-footer caption
+{
+   color: #DBE0EB;
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
+}
+
+.truth-footer p 
+{
+   padding:0;
+   text-align: center;
+}
+
+.truth-footer a,
+.truth-footer a:link
+{
+   color: #5D8AE9;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.truth-footer a:visited
+{
+   color: #889BBF;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.truth-footer a:hover
+{
+   color: #7DA0ED;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+
+.truth-footer img
+{
+   border: none;
+   margin: 0;
+}
+
+.truth-footer-inner
+{
+   margin: 0 auto;
+   width:980px;
+   padding:20px;
+   padding-right: 23px;
+   padding-left: 23px;
+}
+
+.truth-rss-tag-icon
+{
+   background:  url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/footerrssicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+}
+
+.truth-rss-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.truth-footer ul>li:before
+{
+   content:url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/footerbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -11px;
+}
+.opera .truth-footer ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.truth-footer li
+{
+   font-size: 13px;
+   font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #EAF1F6;
+}
+
+.truth-footer ul>li, .truth-footer ol
+{
+   padding: 0;
+}
+
+.truth-footer ul>li
+{
+   padding-left: 11px;
+}
+
+.truth-page-footer, 
+.truth-page-footer a,
+.truth-page-footer a:link,
+.truth-page-footer a:visited,
+.truth-page-footer a:hover
+{
+   font-family: Arial;
+   font-size: 10px;
+   letter-spacing: normal;
+   word-spacing: normal;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: underline;
+   color: #D1D8E6;
+}
+
+.truth-page-footer
+{
+   position: relative;
+   z-index: auto !important;
+   padding: 1em;
+   text-align: center !important;
+   text-decoration: none;
+   color: #B5CEDE;
+}
+
+img.truth-lightbox
+{
+   cursor: pointer;
+}
+
+#truth-lightbox-bg *
+{
+   padding: 0;
+   margin: 0;
+}
+
+div#truth-lightbox-bg
+{
+   top: 0;
+   left: 0;
+   width: 100%;
+   position: absolute;
+   height: 100%;
+   background-color: #000;
+   opacity: 0.8;
+   filter: alpha(opacity=80);
+   z-index: 9999;
+}
+
+img.truth-lightbox-image
+{
+   -webkit-transition: opacity 350ms ease-in-out;
+   -moz-transition: opacity 350ms ease-in-out;
+   -o-transition: opacity 350ms ease-in-out;
+   -ms-transition: opacity 350ms ease-in-out;
+   transition: opacity 350ms ease-in-out;
+   cursor: pointer;
+   z-index: 10000;
+   position: fixed;
+   border: 6px solid #fff;
+   border-radius: 3px;
+   opacity: 0;
+   filter: alpha(opacity=0);
+}
+
+img.truth-lightbox-image.active
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.lightbox-error
+{
+   position: fixed;
+   background: #fff;
+   z-index: 100;
+   opacity: 0.95;
+   padding: 20px;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   width: 300px;
+   height: 80px;
+}
+
+.loading
+{
+   position: fixed;
+   background: #fff url('https://truthemergency.us/wp-content/themes/Truth-Emergency-2008_4/images/preloader-01.gif') center center no-repeat;
+   width: 32px;
+   height: 32px;
+   z-index: 10100;
+   opacity: 0.5;
+   padding: 10px;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+}
+
+.arrow
+{
+   height: 100px;
+   width: 82px;
+   z-index: 10003;
+   position: fixed;
+   cursor: pointer;
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+
+.arrow.left
+{
+   left: 9px;
+}
+.arrow.right
+{
+   right: 9px;
+}
+
+.arrow:hover
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.arrow.disabled 
+{
+   display: none;
+}
+
+.arrow-t, .arrow-b
+{
+   height: 6px;
+   width: 30px;
+   left: 26px;
+   background-color: #fff;
+   position: relative;
+   border-radius: 3px;
+}
+
+.arrow-t
+{
+   top: 38px;
+}
+
+.arrow-b
+{
+   top: 50px;
+}
+
+.close
+{
+   width: 22px;
+   height: 22px;
+   position: fixed;
+   top: 30px;
+   right: 39px;
+   cursor: pointer;
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+
+.close:hover 
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.close .cw, .close .ccw
+{
+   position: absolute;
+   top: 8px;
+   left: -4px;
+   width: 30px;
+   height: 6px;
+   background-color: #fff;
+   border-radius: 3px;
+}
+
+.cw
+{
+   transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(45deg);
+   /* Opera */
+    -moz-transform: rotate(45deg);
+/* Firefox */}
+
+.ccw
+{
+   transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(-45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(-45deg);
+   /* Opera */
+    -moz-transform: rotate(-45deg);
+/* Firefox */}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt 
+{
+   display: none;
+   color: #fff;
+   font-size: 2.5em;
+}
+
+.ie8 .close-alt, .ie8 .arrow-right-alt, .ie8 .arrow-left-alt {
+   display: block;
+}
+.ie8 .cw, .ie8 .ccw {
+   display: none;
+}
+
+.truth-content-layout .truth-sidebar1
+{
+   background: #1D2535;
+   background: transparent;
+   -webkit-border-radius:3px 0 0 3px;
+   -moz-border-radius:3px 0 0 3px;
+   border-radius:3px 0 0 3px;
+   border-right:1px solid #495F88;
+   margin:0 auto;
+   width: 190px;
+}
+
+.truth-content-layout .truth-content
+{
+   margin:0 auto;
+}
+
+.truth-content-layout .truth-sidebar2
+{
+   background: #1D2535;
+   background: transparent;
+   -webkit-border-radius:0 3px 3px 0;
+   -moz-border-radius:0 3px 3px 0;
+   border-radius:0 3px 3px 0;
+   border-left:1px solid #495F88;
+   margin:0 auto;
+   width: 190px;
+}
+
+
+
+textarea#comment
+{
+    width:99%;
+}
+
+ul#comments-list div.avatar
+{
+    float:right;    
+}
+
+ul#comments-list, ul#comments-list li
+{
+  background: none;
+  padding:0;
+}
+
+ul#comments-list li li
+{
+  margin-left: 20px;
+}
+
+div.avatar
+{
+  position:relative;
+  margin: 7px;
+  border: 1px solid #aaa;
+  padding: 1px;
+  background: #fff;
+  float:left;
+}
+
+div.avatar img, div.avatar img.wp-post-image
+{
+    margin:0 !important;
+    padding:0;
+    border:none;
+}
+
+span.page-navi-outer, span.page-navi-inner 
+{
+    position:relative;
+    display:block;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+span.page-navi-outer
+{
+  margin: 1px;
+  border: 1px solid #aaa;
+}
+
+span.page-navi-inner 
+{
+  padding: 1px;
+  min-width:14px;
+  line-height:18px;
+  text-align:center;
+  border: 2px solid #fff;
+  font-weight:bold;
+}
+
+a span.page-navi-inner, span.page-navi-caption span.page-navi-inner 
+{
+    border-width:1px;
+    font-weight:normal;
+}
+
+a span.page-navi-outer, span.page-navi-caption
+{
+    margin:2px 1px;
+}
+
+ul#comments-list li cite
+{
+  font-size: 1.2em;
+}
+
+#commentform textarea
+{
+  width: 100%;
+}
+
+#commentform
+{
+  text-align:left;
+}
+
+.rtl #commentform
+{
+  text-align:right;
+}
+
+img.wp-smiley
+{
+  border: none;
+  margin: 1px;
+  vertical-align:middle;
+  padding: 0;
+}
+
+.navigation
+{
+  display: block;
+  text-align: center;
+}
+
+/* Recommended by http://codex.wordpress.org/CSS */
+/* Begin */
+.aligncenter, div.aligncenter, .truth-article .aligncenter img, .aligncenter img.truth-article, .aligncenter img, img.aligncenter
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.aligncenter , p.center 
+{
+   text-align: center; 
+}
+
+.alignleft
+{
+  float: left;
+}
+
+.alignright
+{
+  float: right;
+}
+
+.wp-caption
+{
+  border: 1px solid #ddd;
+  background-color: #f3f3f3;
+  padding-top: 4px;
+  margin: 10px;
+}
+
+.wp-caption img
+{
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+
+.wp-caption p.wp-caption-text
+{
+  font-size: 11px;
+  line-height: 17px;
+  padding: 0 4px 5px;
+  margin: 0;
+}
+
+.wp-caption, .wp-caption p
+{
+    text-align: center;
+}
+
+.gallery {
+	margin: 0 auto 18px;
+    clear:both;
+    overflow:hidden;
+}
+
+.gallery .gallery-item {
+	float: left;
+	margin-top: 0;
+	text-align: center;
+	width: 33%;
+}
+.gallery img {
+	border: 2px solid #cfcfcf;
+}
+
+.gallery .gallery-caption {
+	color: #888;
+	font-size: 12px;
+	margin: 0 0 12px;
+}
+
+.gallery dl {
+	margin: 0;
+}
+
+.gallery img {
+	border: 10px solid #f1f1f1;
+}
+
+.gallery br+br {
+	display: none;
+}
+/* End */
+
+
+.hidden
+{
+  display: none;
+}
+
+/* Calendar */
+#wp-calendar {
+  empty-cells: show;
+  margin: 10px auto 0;
+  width: 155px;
+}
+
+#wp-calendar #next a {
+  padding-right: 10px;
+  text-align: right;
+}
+
+#wp-calendar #prev a {
+  padding-left: 10px;
+  text-align: left;
+}
+
+#wp-calendar a {
+  display: block;
+}
+
+#wp-calendar caption {
+  text-align: center;
+  width: 100%;
+}
+
+#wp-calendar td {
+  padding: 3px 0;
+  text-align: center;
+}
+
+.gallery {
+  letter-spacing: normal;
+}
+
+.truth-content {
+  position: relative;
+  z-index: 1;   
+}
+
+#todays-events{
+  position: relative;
+  z-index: 11;    
+}
+
+#upcoming-events{
+  position: relative;
+  z-index: 10;    
+}
+
+img.wp-post-image 
+{
+    margin:0 5px 5px 0 !important;
+}
+
+ul#comments-list li
+{
+    list-style-image: none;
+    background:none;
+    list-style-type:none;
+    
+}
+
+div.truth-footer div.truth-content-layout
+{
+    margin:0 auto;
+    width:100%;
+}
+
+div.truth-layout-cell-size1 
+{
+    width:100%;
+}
+
+div.truth-layout-cell-size2 
+{
+    width:50%;
+}
+div.truth-layout-cell-size3 
+{
+    width:33%;
+}
+
+div.truth-layout-cell-size4
+{
+    width:25%;
+}
+
+.truth-widget-title
+{
+    padding:0 0 0 24px;
+    margin-bottom:0;
+}
+
+div.truth-center-wrapper
+{
+  position: relative;
+  float: right;
+  right: 50%;
+
+}
+
+div.truth-center-inner
+{
+  position: relative;
+  float: left;
+  left: 50%;
+}
+
+.firefox2 div.truth-center-inner
+{
+  float: none;
+}
+
+div.breadcrumbs h4, 
+div.breadcrumbs p, 
+li.pingback p, 
+#respond p,
+h3#reply-title, 
+h4#comments, 
+h4.box-title
+{
+    margin:0;
+}
+
+#respond .comment-notes {
+	margin-bottom: 1em;
+}
+
+.form-allowed-tags {
+	line-height: 1em;
+}
+
+#comments-list #respond {
+	margin-left: 23px !important;
+}
+
+#cancel-comment-reply-link {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+#respond .required {
+	color: #ff4b33;
+	font-weight: bold;
+}
+
+#respond label {
+	font-size: 12px;
+}
+
+#respond input {
+	margin: 0 0 9px;
+	width: 98%;
+}
+
+#respond textarea {
+	width: 98%;
+}
+
+#respond .form-allowed-tags {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#respond .form-allowed-tags code {
+	font-size: 11px;
+}
+
+#respond .form-submit {
+	margin: 12px 0;
+}
+
+#respond .form-submit input {
+	width: auto;
+}
+
+.truth-footer .truth-widget-title 
+{
+    font-size:1.2em;
+    padding: 0;
+}
+
+.truth-footer .truth-widget,
+.truth-footer .truth-widget a,
+.truth-footer .truth-widget a:link,
+.truth-footer .truth-widget a:visited,
+.truth-footer .truth-widget a:hover
+{
+    text-align: left;
+}
+
+DIV[id^="GMPmap"] IMG 
+{
+    margin: 0px;
+}
+
+/* Begin Additional CSS Styles */
+.truth-blockheader .t, .truth-vmenublockheader .t {white-space: nowrap;}
+/* End Additional CSS Styles */
+

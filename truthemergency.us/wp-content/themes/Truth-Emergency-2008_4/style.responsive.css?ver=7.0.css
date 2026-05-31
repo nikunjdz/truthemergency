@@ -1,0 +1,393 @@
+/* Created by Artisteer v4.0.0.58475 */
+
+.responsive body
+{
+   min-width: 240px;
+}
+  
+.responsive .truth-content-layout img,
+.responsive .truth-content-layout video
+{
+   max-width: 100%;
+   height: auto !important;
+}
+
+.responsive.responsive-phone .truth-content-layout img 
+{
+   float: none !important;
+}
+    
+.responsive .truth-content-layout .truth-sidebar0, 
+.responsive .truth-content-layout .truth-sidebar1, 
+.responsive .truth-content-layout .truth-sidebar2 
+{
+   width: auto !important;
+}
+    
+.responsive .truth-content-layout, 
+.responsive .truth-content-layout-row, 
+.responsive .truth-layout-cell 
+{
+   display: block;
+}
+  
+.responsive .truth-slidenavigator 
+{
+   display: none !important;
+}
+    
+.responsive .truth-collage 
+{
+   display: none !important;
+}
+    
+.responsive .image-caption-wrapper 
+{
+   width: auto !important;
+}
+  
+.responsive .truth-textblock 
+{
+   display: none;
+}
+
+.responsive.responsive-tablet .truth-vmenublock,
+.responsive.responsive-tablet .truth-block
+{
+   margin-left: 1%;
+   margin-right: 1%;
+   width: 48%;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.responsive .truth-responsive-embed 
+{
+   position: relative;
+   padding-bottom: 56.25%;
+   /* 16:9 */
+	height: 0;
+}
+
+.responsive .truth-responsive-embed iframe,
+.responsive .truth-responsive-embed object,
+.responsive .truth-responsive-embed embed
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.responsive .truth-header 
+{
+   width: auto;
+   height: auto;
+   min-height: 100px;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+   background-position: center center !important;
+   background-size: cover !important;
+   background-repeat: repeat !important;
+}
+
+.responsive .truth-header .truth-headline, 
+.responsive .truth-header .truth-slogan 
+{
+   display: block !important;
+   top: 0 !important;
+   left: 0 !important;
+   margin: 2% !important;
+}
+    
+.responsive .truth-header .truth-headline a, 
+.responsive .truth-header .truth-slogan 
+{
+   white-space: normal !important;
+}
+    
+.responsive .truth-header .truth-shapes .truth-textblock 
+{
+   padding: 2% !important;
+   margin: 2% !important;
+   line-height: normal;
+   background-image: none;
+   background-color: rgba(127, 127, 127, 0.7);
+   color: #eee !important;
+   display: none;
+   top: auto;
+   left: auto;
+   width: auto;
+   height: auto;
+}
+
+.responsive .truth-header .truth-shapes .truth-textblock *,
+.responsive .truth-header .truth-shapes .truth-textblock a:hover,
+.responsive .truth-header .truth-shapes .truth-textblock a:visited,
+.responsive .truth-header .truth-shapes .truth-textblock a:link 
+{
+   color: #eee !important;
+}
+    
+.responsive .truth-header .truth-shapes .truth-textblock>div 
+{
+   display: none;
+   top: auto;
+   left: auto;
+   width: auto;
+   height: auto;
+   padding: 0 !important;
+}
+
+.responsive .truth-header .truth-shapes,
+.responsive .truth-header .truth-shapes *
+{
+   position: relative;
+   text-align: center;
+   -webkit-transform: none !important;
+   -moz-transform: none !important;
+   -o-transform: none !important;
+   -ms-transform: none !important;
+   transform: none !important;
+}
+
+.responsive .truth-header #truth-flash-area,
+.responsive .truth-header .truth-shapes>*
+{
+   display: none;
+}
+
+.responsive #truth-header-bg 
+{
+   background-position: center center !important;
+   background-size: cover !important;
+   background-repeat: repeat !important;
+}
+
+/* Search */
+.responsive .truth-shapes~.truth-textblock
+{
+   position: relative !important;
+   display: block !important;
+   margin: 1% auto !important;
+   width: 75% !important;
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+}
+
+/* dynamic width nav */
+.responsive nav.truth-nav,
+.responsive .truth-nav-inner
+{
+   width: auto !important;
+   position: relative !important;
+   top: auto !important;
+   left: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.responsive nav.truth-nav
+{
+   margin-top: 1%;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+}
+
+.responsive .responsive-nav 
+{
+   padding-left: 0;
+   padding-right: 0;
+}
+
+/* full width hmenu, instead of inline-block */
+.responsive .responsive-nav ul.truth-hmenu 
+{
+   display: block;
+   float: none;
+   text-align: center;
+}
+
+/* elements on different lines */
+.responsive .responsive-nav ul.truth-hmenu li
+{
+   float: none;
+}
+  
+/* horizontal margins */
+.responsive .responsive-nav ul.truth-hmenu>li:first-child, 
+.responsive .responsive-nav ul.truth-hmenu>li:last-child, 
+.responsive .responsive-nav ul.truth-hmenu>li
+{
+   margin-left: 0;
+   margin-right: 0;
+}
+ 
+/* separator */ 
+.responsive .responsive-nav ul.truth-hmenu>li:before
+{
+   display: none;
+}
+
+/* vertical distance between items */
+.responsive .responsive-nav ul.truth-hmenu a
+{
+   margin-top: 1px !important;
+   margin-bottom: 1px !important;
+   text-align: center;
+   height: auto;
+   white-space: normal;
+}
+
+.responsive .responsive-nav ul.truth-hmenu>li:first-child>a
+{
+   margin-top: 0 !important;
+}
+
+.responsive .responsive-nav ul.truth-hmenu>li:last-child>a
+{
+   margin-bottom: 0 !important;
+}
+
+/* fixes for extended menu */
+.responsive .responsive-nav .ext, 
+.responsive .responsive-nav ul.truth-hmenu>li>ul, 
+.responsive .responsive-nav ul.truth-hmenu>li>ul>li
+{
+   width: auto !important;
+}
+
+/* submenu position on hover */
+.responsive .responsive-nav ul.truth-hmenu ul
+{
+   left: auto !important;
+   right: auto !important;
+   top: auto !important;
+   bottom: auto !important;
+   display: none !important;
+   position: relative !important;
+   visibility: visible !important;
+}
+
+.responsive .responsive-nav ul.truth-hmenu>li>ul>li:first-child:after 
+{
+   display: none;
+}
+.responsive .responsive-nav ul.truth-hmenu ul a
+{
+   padding-left: 4% !important;
+}
+.responsive .responsive-nav ul.truth-hmenu ul ul a
+{
+   padding-left: 6% !important;
+}
+.responsive .responsive-nav ul.truth-hmenu ul ul ul a
+{
+   padding-left: 8% !important;
+}
+.responsive .responsive-nav ul.truth-hmenu ul ul ul ul a
+{
+   padding-left: 10% !important;
+}
+.responsive .responsive-nav ul.truth-hmenu ul ul ul ul ul a
+{
+   padding-left: 12% !important;
+}
+  
+.responsive .responsive-nav ul.truth-hmenu>li>ul
+{
+   padding: 1px;
+}
+  
+.responsive .responsive-nav ul.truth-hmenu>li>ul:before
+{
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+.responsive .truth-sheet
+{
+   width: auto !important;
+   min-width: 240px !important;
+   max-width: none;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+   margin-top: 1% !important;
+}
+
+#truth-resp {
+   display: none;
+}
+
+@media all and (max-width: 979px)
+{
+    #truth-resp, #truth-resp-t { display: block; }
+    #truth-resp-m { display: none; }
+}
+
+@media all and (max-width: 480px)
+{
+    #truth-resp, #truth-resp-m { display: block; }
+    #truth-resp-t { display: none; }
+}
+
+.responsive .truth-content-layout, 
+.responsive .truth-content-layout-row, 
+.responsive .truth-layout-cell 
+{
+   display: block;
+}
+
+.responsive .truth-layout-cell 
+{
+   width: auto !important;
+   height: auto !important;
+   border-right-width: 0 !important;
+   border-left-width: 0 !important;
+   border-radius: 0 !important;
+}
+
+.responsive .truth-content-layout:after, 
+.responsive .truth-content-layout-row:after, 
+.responsive .truth-layout-cell:after 
+{
+   content: ".";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+}
+
+.responsive .truth-post
+{
+   border-radius: 0;
+}
+
+.responsive .truth-footer-inner
+{
+   width: auto;
+   padding: 2% !important;
+}
+.responsive .truth-footer
+{
+   margin-top: 1%;
+}
+
+.responsive .responsive-tablet-layout-cell 
+{
+   width: 50% !important;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+

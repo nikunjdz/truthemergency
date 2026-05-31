@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 20% 95%;
+    --foreground: 210 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 15%;
+
+    --primary: 210 60% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 30% 85%;
+    --secondary-foreground: 210 20% 15%;
+
+    --muted: 210 15% 90%;
+    --muted-foreground: 210 10% 40%;
+
+    --accent: 40 90% 50%;
+    --accent-foreground: 210 20% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 20% 82%;
+    --input: 210 20% 82%;
+    --ring: 210 60% 45%;
+
+    --radius: 0.25rem;
+
+    --nav-bg: 210 40% 75%;
+    --nav-hover: 210 50% 65%;
+    --nav-text: 210 20% 15%;
+    --sidebar-bg: 0 0% 100%;
+    --sidebar-heading-bg: 210 30% 55%;
+    --sidebar-heading-text: 0 0% 100%;
+    --link-color: 210 70% 40%;
+    --blockquote-bg: 210 20% 93%;
+    --blockquote-border: 210 40% 70%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .site-prose {
+    font-feature-settings: "kern" 1;
+    word-spacing: normal;
+    letter-spacing: normal;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    text-wrap: pretty;
+  }
+
+  .site-prose :where(p, li, blockquote, dd, td, th) {
+    line-height: 1.65;
+    word-spacing: normal;
+    letter-spacing: normal;
+  }
+
+  .site-prose :where(h1, h2, h3, h4) {
+    line-height: 1.25;
+    text-wrap: balance;
+  }
+
+  @media (max-width: 767px) {
+    .site-prose .text-justify {
+      text-align: left !important;
+    }
+  }
+}
+
+/* src/index.css */
+
+html {
+  /* Bumps up the default font size of the entire site by 10-15% */
+  font-size: 10.0%;
+}
