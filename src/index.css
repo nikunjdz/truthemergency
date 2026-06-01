@@ -24,7 +24,7 @@ All colors MUST be HSL.
     --secondary-foreground: 210 20% 15%;
 
     --muted: 210 15% 90%;
-    --muted-foreground: 210 10% 40%;
+    --muted-foreground: 210 15% 35%;
 
     --accent: 40 90% 50%;
     --accent-foreground: 210 20% 15%;
@@ -107,5 +107,5 @@ All colors MUST be HSL.
 
 html {
   /* Bumps up the default font size of the entire site by 10-15% */
-  font-size: 10.0%;
+  font-size: 112.5%;
 }

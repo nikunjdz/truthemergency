@@ -355,7 +355,7 @@ const MainContent = () => {
 
       <section id="coup-news" className="pt-10 border-t border-border mt-10">
         <h2 className="text-xl font-bold text-primary mb-4">Coup News</h2>
-        <ul className="list-disc pl-5 space-y-2 text-sm leading-relaxed">
+        <ul className="list-disc pl-5 space-y-2 text-base leading-relaxed">
           <li>
             <a href="https://www.nancho.net" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link-color))] hover:underline">
               Nancho.net main archive
@@ -371,7 +371,7 @@ const MainContent = () => {
 
       <section id="resources" className="pt-10 border-t border-border mt-10 scroll-mt-6">
         <h2 className="text-xl font-bold text-primary mb-2">Recommended References</h2>
-        <p className="text-sm text-muted-foreground mb-6">
+        <p className="text-base md:text-lg text-muted-foreground mb-6">
           Please review as many of these books, films, and online databases as possible to prepare for summits.
         </p>
 
@@ -432,8 +432,8 @@ const MainContent = () => {
                 <div className="flex flex-col justify-between min-w-0">
                   <div>
                     <h4 className="font-bold text-sm leading-tight text-foreground mb-1 line-clamp-2">{book.title}</h4>
-                    <p className="text-xs italic text-muted-foreground mb-2">by {book.author}</p>
-                    <p className="text-xs text-muted-foreground line-clamp-3 leading-normal mb-3">{book.description}</p>
+                    <p className="text-sm italic text-foreground/80 mb-2">by {book.author}</p>
+                    <p className="text-sm text-foreground/90 line-clamp-3 leading-normal mb-3">{book.description}</p>
                   </div>
                   <a
                     href={book.link}
@@ -471,8 +471,8 @@ const MainContent = () => {
                 <div className="flex flex-col justify-between min-w-0">
                   <div>
                     <h4 className="font-bold text-sm leading-tight text-foreground mb-1 line-clamp-2">{film.title}</h4>
-                    <p className="text-xs italic text-muted-foreground mb-2">Directed by {film.director}</p>
-                    <p className="text-xs text-muted-foreground line-clamp-3 leading-normal mb-3">{film.description}</p>
+                    <p className="text-sm italic text-foreground/80 mb-2">Directed by {film.director}</p>
+                    <p className="text-sm text-foreground/90 line-clamp-3 leading-normal mb-3">{film.description}</p>
                   </div>
                   <a
                     href={film.link}
@@ -493,7 +493,7 @@ const MainContent = () => {
             {onlineResources.map((item, idx) => (
               <div key={idx} className="p-5 border border-border rounded-lg bg-card text-card-foreground shadow-sm">
                 <h4 className="font-bold text-base text-foreground mb-2">{item.title}</h4>
-                <p className="text-sm text-muted-foreground mb-4">{item.description}</p>
+                <p className="text-base text-foreground/90 mb-4">{item.description}</p>
 
                 {/* Render static linked websites */}
                 {item.link && (
@@ -571,28 +571,28 @@ const MainContent = () => {
 
       <section id="videos" className="pt-10 border-t border-border mt-10">
         <h2 className="text-xl font-bold text-primary mb-4">Video Inspirations</h2>
-        <p className="text-sm leading-relaxed">
+        <p className="text-base leading-relaxed text-foreground">
           See the video embeds above for a preview of the kinds of talks, interviews, and short clips that informed the original summit.
         </p>
       </section>
 
       <section id="corporatism" className="pt-10 border-t border-border mt-10">
         <h2 className="text-xl font-bold text-primary mb-4">Corporatism Wire</h2>
-        <p className="text-sm leading-relaxed">
+        <p className="text-base leading-relaxed text-foreground">
           A placeholder section for corporatism-related headlines and summaries that were originally curated on the old site.
         </p>
       </section>
 
       <section id="plot" className="pt-10 border-t border-border mt-10">
         <h2 className="text-xl font-bold text-primary mb-4">Plot to Seize the White House</h2>
-        <p className="text-sm leading-relaxed">
+        <p className="text-base leading-relaxed text-foreground">
           A placeholder section for the background links and excerpts related to the White House coup narrative from the original archive.
         </p>
       </section>
 
       <section id="links" className="pt-10 border-t border-border mt-10">
         <h2 className="text-xl font-bold text-primary mb-4">Links</h2>
-        <ul className="list-disc pl-5 space-y-2 text-sm leading-relaxed">
+        <ul className="list-disc pl-5 space-y-2 text-base leading-relaxed">
           <li>
             <a href="https://www.nancho.net/truthemergency/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link-color))] hover:underline">
               Original Truth Emergency archive (nancho.net)

@@ -42,6 +42,8 @@ const SidebarSection = ({ title, links }: { title: string; links: string[] }) =>
 );
 
 const RightSidebar = () => {
+  const baseUrl = import.meta.env.BASE_URL;
+  
   return (
     <aside className="w-full flex flex-col items-center">
       {/* Search Bar at the very top */}
@@ -64,21 +66,21 @@ const RightSidebar = () => {
         <div className="flex flex-col gap-5">
           <a href="#resources?tab=books" className="block">
             <img
-              src="/images/truth_books.png"
+              src={`${baseUrl}images/truth_books.png`}
               alt="US Truth Emergency References - BOOKS"
               className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow cursor-pointer"
             />
           </a>
           <a href="#resources?tab=films" className="block">
             <img
-              src="/images/truth_films.png"
+              src={`${baseUrl}images/truth_films.png`}
               alt="US Truth Emergency References - FILMS"
               className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow cursor-pointer"
             />
           </a>
           <a href="#resources?tab=online" className="block">
             <img
-              src="/images/truth_online.png"
+              src={`${baseUrl}images/truth_online.png`}
               alt="US Truth Emergency References - ONLINE"
               className="w-36 h-auto shadow-sm hover:shadow-md transition-shadow cursor-pointer"
             />
