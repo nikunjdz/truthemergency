@@ -221,13 +221,13 @@ const MainContent = () => {
 
   return (
     <main id="top" className="w-full scroll-mt-6">
-      <h1 className="text-2xl font-bold text-primary mb-4">Home</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-primary mb-6">Home</h1>
 
-      <h2 className="text-xl font-bold text-center text-primary mb-3">
+      <h2 className="text-2xl md:text-3xl font-bold text-center text-primary mb-4">
         Strategizing for Democratic Survival
       </h2>
 
-      <p className="text-sm text-center mb-4">
+      <p className="text-base md:text-lg text-center mb-6">
         <strong>
           This site is being maintained as an archive and reference for similar future gatherings, but also to refer readers to one of the conference's most positive outcomes,{" "}
           <a href="https://web.archive.org/web/20081005211802/http://mediafreedom.pnn.com/5174-independent-news-sources" className="text-[hsl(var(--link-color))] hover:underline">
@@ -237,17 +237,17 @@ const MainContent = () => {
         </strong>
       </p>
 
-      <hr className="border-border my-4" />
+      <hr className="border-border my-6" />
 
-      <p className="text-sm text-center italic mb-4">
+      <p className="text-base md:text-lg text-center italic mb-6">
         <strong>A Collaborative Strategy Summit for Media Pros, Scholars,</strong><br />
         <strong>Activists and Whistleblowers Working for Truth, Transparency</strong><br />
         <strong>and an Informed Resurgent Democracy</strong>
       </p>
 
-      <h3 className="font-bold text-sm mb-3">PROCEEDINGS</h3>
+      <h3 className="font-bold text-lg md:text-xl mb-4">PROCEEDINGS</h3>
 
-      <p className="text-sm mb-4">
+      <p className="text-base md:text-lg mb-6">
         The "Publicizing Truths with Consequence" organizing committee would like to sincerely thank the 330+ dedicated media activists, journalists and whistleblowers who devoted so many hours and so much effort and intelligence to make this gathering such a creative and productive event. We shall be posting select audio and video records of the proceedings and its concrete outcomes here and at the summit{" "}
         <a href="#" className="text-[hsl(var(--link-color))] hover:underline">PNN site</a>{" "}
         in the coming weeks. In the meantime, we offer the recently received video playlist below to preview the quality of the discourse. For additional videos, please click{" "}
@@ -256,6 +256,7 @@ const MainContent = () => {
 
       <div className="mb-4 aspect-video">
         <iframe
+          loading="lazy"
           width="100%"
           height="100%"
           src="https://www.youtube-nocookie.com/embed/_6D9Vl7Bu9U"
@@ -266,29 +267,29 @@ const MainContent = () => {
         />
       </div>
 
-      <p className="text-sm text-center mb-6">
+      <p className="text-base md:text-lg text-center mb-6">
         Former Georgia Congresswoman and Green Party presidential candidate Cynthia McKinney on corporate media complicity in the distortion of modern history
       </p>
 
-      <h3 className="font-bold text-sm mb-3">PROLOGUE</h3>
+      <h3 className="font-bold text-lg md:text-xl mb-4">PROLOGUE</h3>
 
-      <blockquote className="bg-[hsl(var(--blockquote-bg))] border-l-4 border-[hsl(var(--blockquote-border))] p-3 mb-4 text-sm italic">
+      <blockquote className="bg-[hsl(var(--blockquote-bg))] border-l-4 border-[hsl(var(--blockquote-border))] p-4 mb-6 text-base md:text-lg italic">
         <p>"Democracy cannot survive, much less thrive with the level of big corporate and big government interference and intimidation in news."</p>
         <footer className="mt-2 text-right not-italic">— Dan Rather</footer>
       </blockquote>
 
-      <blockquote className="bg-[hsl(var(--blockquote-bg))] border-l-4 border-[hsl(var(--blockquote-border))] p-3 mb-4 text-sm italic">
+      <blockquote className="bg-[hsl(var(--blockquote-bg))] border-l-4 border-[hsl(var(--blockquote-border))] p-4 mb-6 text-base md:text-lg italic">
         <p>"Practically every progressive struggle — campaign finance reform, rain forest destruction and global warming, sweatshops, family farms, fair trade, health care for all, unionization, military spending and arms sales, tax reform, alternative energy, healthy food, media access, hazardous waste dumps, redlining, alternative medicine, you name it — is being fought against one cluster of corporations or another..."</p>
         <footer className="mt-2 text-right not-italic">— Jim Hightower</footer>
       </blockquote>
 
-      <blockquote className="bg-[hsl(var(--blockquote-bg))] border-l-4 border-[hsl(var(--blockquote-border))] p-3 mb-4 text-sm italic">
+      <blockquote className="bg-[hsl(var(--blockquote-bg))] border-l-4 border-[hsl(var(--blockquote-border))] p-4 mb-6 text-base md:text-lg italic">
         <p>"Journalism's job is not impartial 'balanced' reporting. Journalism's job is to tell the people what is really going on."</p>
         <footer className="mt-2 text-right not-italic">— George Seldes</footer>
       </blockquote>
 
-      <h3 className="font-bold text-sm mb-3">PURPOSE</h3>
-      <p className="text-sm mb-4">
+      <h3 className="font-bold text-lg md:text-xl mb-4">PURPOSE</h3>
+      <p className="text-base md:text-lg mb-6">
         A collaborative gathering of media veterans, scholars, activists & whistleblowers to assess and marshal our most powerful messages to rectify history, awaken a critical mass, and effectively expose the accelerating corporate coup d'état.
       </p>
 
@@ -324,6 +325,7 @@ const MainContent = () => {
 
       <div className="mb-4 aspect-video">
         <iframe
+          loading="lazy"
           width="100%"
           height="100%"
           src="https://www.youtube-nocookie.com/embed/Yfu44knmLOE"
@@ -340,6 +342,7 @@ const MainContent = () => {
 
       <div className="mb-4 aspect-video">
         <iframe
+          loading="lazy"
           width="100%"
           height="100%"
           src="https://www.youtube-nocookie.com/embed/viVAAy_qkx0"
